@@ -1,0 +1,32 @@
+# Welcome to Jekyll!
+#
+# This config file is meant for settings that affect your whole blog, values
+# which you are expected to set up once and rarely need to edit after that.
+# For technical reasons, this file is *NOT* reloaded automatically when you use
+# 'jekyll serve'. If you change this file, please restart the server process.
+
+## default settings
+# Site settings
+title: 7akive
+author: Taki
+email: 7akikim@gmail.com
+description: > # this means to ignore newlines until "baseurl:"
+  언젠가는 재활용 가능한 내용이 될 겁니다.
+
+
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "http://7akikim.github.io" # the base hostname & protocol for your site
+twitter_username: 7akikim
+github_username:  7akikim
+
+# Build settings
+markdown: kramdown
+
+## custom settings
+highlighter: pygments
+
+gems: ["jekyll-sitemap"]
+#custom page split(pagenate)
+gems: ["jekyll-paginate"]
+pagenate: 5
+pagenate_path: "/blog/page:num/"
