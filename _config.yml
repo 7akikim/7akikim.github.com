@@ -23,7 +23,7 @@ github_username:  7akikim
 markdown: kramdown
 
 ## custom settings
-highlighter: pygments
+highlighter: rouge
 
 gems: ["jekyll-sitemap"]
 #custom page split(pagenate)
